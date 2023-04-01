@@ -406,6 +406,7 @@ if (cartItems.length === 0) {
     emptyCartMessage.innerHTML = `
     <div class="empty-cart-text">
     <h3>Your Cart Is Empty.</h3>
+    
     </div>
     `
     mainCartContainer.appendChild(emptyCartMessage);

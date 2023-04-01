@@ -166,7 +166,7 @@
           <h4 id="modal-content"></h4>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn">Ok</button>
+          <button type="button" class="btn" id="mod-btn">Ok</button>
         </div>
       </div>
     </div>
@@ -194,6 +194,12 @@
     <!-- 888888888888888888888888  footer  8888888888888888888888888888888888888 -->
 
 </body>
+
+<script>
+    document.getElementById("mod-btn").addEventListener("click", ()=>{
+        window.location.href ="men-index.html";
+    })
+</script>
 <script src="script.js"></script>
 <script src="men-checkout.js"></script>
 <script src="../bootstrap.bundle.min.js"></script>
